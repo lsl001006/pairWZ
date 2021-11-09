@@ -323,224 +323,170 @@
             "flags": {}
         },
         {
-            "label": "range",
-            "shape_type": "rectangle",
+            "label": "pair",
+            "shape_type": "line",
+            "lineType": "LL",
             "points": [
                 [
-                    138,
-                    110
+                    238,
+                    210
                 ],
                 [
-                    338,
-                    310
+                    273,
+                    125
                 ]
             ],
             "flags": {},
             "group_id": null
         },
         {
-            "label": "range",
-            "shape_type": "rectangle",
+            "label": "pair",
+            "shape_type": "line",
+            "lineType": "LL",
             "points": [
                 [
-                    83,
-                    171
+                    183,
+                    271
                 ],
                 [
-                    283,
-                    371
+                    186,
+                    291
                 ]
             ],
             "flags": {},
             "group_id": null
         },
         {
-            "label": "range",
-            "shape_type": "rectangle",
+            "label": "pair",
+            "shape_type": "line",
+            "lineType": "LL",
             "points": [
                 [
-                    -24,
-                    230
+                    76,
+                    330
                 ],
                 [
-                    176,
-                    430
-                ]
-            ],
-            "flags": {},
-            "group_id": null
-        },
-        {
-            "label": "range",
-            "shape_type": "rectangle",
-            "points": [
-                [
-                    -21,
-                    335
-                ],
-                [
-                    179,
-                    535
-                ]
-            ],
-            "flags": {},
-            "group_id": null
-        },
-        {
-            "label": "range",
-            "shape_type": "rectangle",
-            "points": [
-                [
-                    118,
-                    371
-                ],
-                [
-                    318,
-                    571
-                ]
-            ],
-            "flags": {},
-            "group_id": null
-        },
-        {
-            "label": "range",
-            "shape_type": "rectangle",
-            "points": [
-                [
-                    181,
-                    342
-                ],
-                [
-                    381,
-                    542
-                ]
-            ],
-            "flags": {},
-            "group_id": null
-        },
-        {
-            "label": "range",
-            "shape_type": "rectangle",
-            "points": [
-                [
-                    187,
-                    219
-                ],
-                [
-                    387,
-                    419
-                ]
-            ],
-            "flags": {},
-            "group_id": null
-        },
-        {
-            "label": "range",
-            "shape_type": "rectangle",
-            "points": [
-                [
-                    -13,
-                    19
-                ],
-                [
-                    587,
-                    619
-                ]
-            ],
-            "flags": {},
-            "group_id": null
-        },
-        {
-            "label": "range",
-            "shape_type": "rectangle",
-            "points": [
-                [
-                    269,
+                    108,
                     338
-                ],
-                [
-                    469,
-                    538
                 ]
             ],
             "flags": {},
             "group_id": null
         },
         {
-            "label": "range",
-            "shape_type": "rectangle",
+            "label": "pair",
+            "shape_type": "line",
+            "lineType": "LL",
             "points": [
                 [
-                    69,
-                    138
+                    79,
+                    435
                 ],
                 [
-                    669,
-                    738
+                    108,
+                    423
                 ]
             ],
             "flags": {},
             "group_id": null
         },
         {
-            "label": "range",
-            "shape_type": "rectangle",
+            "label": "pair",
+            "shape_type": "line",
+            "lineType": "LL",
             "points": [
                 [
-                    493,
-                    350
+                    218,
+                    471
                 ],
                 [
-                    693,
-                    550
+                    186,
+                    469
                 ]
             ],
             "flags": {},
             "group_id": null
         },
         {
-            "label": "range",
-            "shape_type": "rectangle",
+            "label": "pair",
+            "shape_type": "line",
+            "lineType": "LL",
             "points": [
                 [
-                    293,
-                    150
+                    281,
+                    442
                 ],
                 [
-                    893,
-                    750
+                    261,
+                    426
                 ]
             ],
             "flags": {},
             "group_id": null
         },
         {
-            "label": "range",
-            "shape_type": "rectangle",
+            "label": "pair",
+            "shape_type": "line",
+            "lineType": "LL",
             "points": [
                 [
-                    389,
-                    172
+                    287,
+                    319
                 ],
                 [
-                    589,
-                    372
+                    261,
+                    334
                 ]
             ],
             "flags": {},
             "group_id": null
         },
         {
-            "label": "range",
-            "shape_type": "rectangle",
+            "label": "pair",
+            "shape_type": "line",
+            "lineType": "LL",
             "points": [
                 [
-                    189,
-                    -28
+                    369,
+                    438
                 ],
                 [
-                    789,
-                    572
+                    408,
+                    423
+                ]
+            ],
+            "flags": {},
+            "group_id": null
+        },
+        {
+            "label": "pair",
+            "shape_type": "line",
+            "lineType": "LL",
+            "points": [
+                [
+                    593,
+                    450
+                ],
+                [
+                    562,
+                    425
+                ]
+            ],
+            "flags": {},
+            "group_id": null
+        },
+        {
+            "label": "pair",
+            "shape_type": "line",
+            "lineType": "LL",
+            "points": [
+                [
+                    489,
+                    272
+                ],
+                [
+                    486,
+                    291
                 ]
             ],
             "flags": {},

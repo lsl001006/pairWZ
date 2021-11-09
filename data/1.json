@@ -339,6 +339,214 @@
             "group_id": null
         },
         {
+            "label": "range",
+            "shape_type": "rectangle",
+            "points": [
+                [
+                    83,
+                    171
+                ],
+                [
+                    283,
+                    371
+                ]
+            ],
+            "flags": {},
+            "group_id": null
+        },
+        {
+            "label": "range",
+            "shape_type": "rectangle",
+            "points": [
+                [
+                    -24,
+                    230
+                ],
+                [
+                    176,
+                    430
+                ]
+            ],
+            "flags": {},
+            "group_id": null
+        },
+        {
+            "label": "range",
+            "shape_type": "rectangle",
+            "points": [
+                [
+                    -21,
+                    335
+                ],
+                [
+                    179,
+                    535
+                ]
+            ],
+            "flags": {},
+            "group_id": null
+        },
+        {
+            "label": "range",
+            "shape_type": "rectangle",
+            "points": [
+                [
+                    118,
+                    371
+                ],
+                [
+                    318,
+                    571
+                ]
+            ],
+            "flags": {},
+            "group_id": null
+        },
+        {
+            "label": "range",
+            "shape_type": "rectangle",
+            "points": [
+                [
+                    181,
+                    342
+                ],
+                [
+                    381,
+                    542
+                ]
+            ],
+            "flags": {},
+            "group_id": null
+        },
+        {
+            "label": "range",
+            "shape_type": "rectangle",
+            "points": [
+                [
+                    187,
+                    219
+                ],
+                [
+                    387,
+                    419
+                ]
+            ],
+            "flags": {},
+            "group_id": null
+        },
+        {
+            "label": "range",
+            "shape_type": "rectangle",
+            "points": [
+                [
+                    -13,
+                    19
+                ],
+                [
+                    587,
+                    619
+                ]
+            ],
+            "flags": {},
+            "group_id": null
+        },
+        {
+            "label": "range",
+            "shape_type": "rectangle",
+            "points": [
+                [
+                    269,
+                    338
+                ],
+                [
+                    469,
+                    538
+                ]
+            ],
+            "flags": {},
+            "group_id": null
+        },
+        {
+            "label": "range",
+            "shape_type": "rectangle",
+            "points": [
+                [
+                    69,
+                    138
+                ],
+                [
+                    669,
+                    738
+                ]
+            ],
+            "flags": {},
+            "group_id": null
+        },
+        {
+            "label": "range",
+            "shape_type": "rectangle",
+            "points": [
+                [
+                    493,
+                    350
+                ],
+                [
+                    693,
+                    550
+                ]
+            ],
+            "flags": {},
+            "group_id": null
+        },
+        {
+            "label": "range",
+            "shape_type": "rectangle",
+            "points": [
+                [
+                    293,
+                    150
+                ],
+                [
+                    893,
+                    750
+                ]
+            ],
+            "flags": {},
+            "group_id": null
+        },
+        {
+            "label": "range",
+            "shape_type": "rectangle",
+            "points": [
+                [
+                    389,
+                    172
+                ],
+                [
+                    589,
+                    372
+                ]
+            ],
+            "flags": {},
+            "group_id": null
+        },
+        {
+            "label": "range",
+            "shape_type": "rectangle",
+            "points": [
+                [
+                    189,
+                    -28
+                ],
+                [
+                    789,
+                    572
+                ]
+            ],
+            "flags": {},
+            "group_id": null
+        },
+        {
             "label": "pair",
             "shape_type": "line",
             "lineType": "LL",
@@ -350,22 +558,6 @@
                 [
                     273,
                     125
-                ]
-            ],
-            "flags": {},
-            "group_id": null
-        },
-        {
-            "label": "range",
-            "shape_type": "rectangle",
-            "points": [
-                [
-                    83,
-                    171
-                ],
-                [
-                    283,
-                    371
                 ]
             ],
             "flags": {},
@@ -389,22 +581,6 @@
             "group_id": null
         },
         {
-            "label": "range",
-            "shape_type": "rectangle",
-            "points": [
-                [
-                    -24,
-                    230
-                ],
-                [
-                    176,
-                    430
-                ]
-            ],
-            "flags": {},
-            "group_id": null
-        },
-        {
             "label": "pair",
             "shape_type": "line",
             "lineType": "LL",
@@ -416,22 +592,6 @@
                 [
                     108,
                     338
-                ]
-            ],
-            "flags": {},
-            "group_id": null
-        },
-        {
-            "label": "range",
-            "shape_type": "rectangle",
-            "points": [
-                [
-                    -21,
-                    335
-                ],
-                [
-                    179,
-                    535
                 ]
             ],
             "flags": {},
@@ -455,22 +615,6 @@
             "group_id": null
         },
         {
-            "label": "range",
-            "shape_type": "rectangle",
-            "points": [
-                [
-                    118,
-                    371
-                ],
-                [
-                    318,
-                    571
-                ]
-            ],
-            "flags": {},
-            "group_id": null
-        },
-        {
             "label": "pair",
             "shape_type": "line",
             "lineType": "LL",
@@ -482,22 +626,6 @@
                 [
                     186,
                     469
-                ]
-            ],
-            "flags": {},
-            "group_id": null
-        },
-        {
-            "label": "range",
-            "shape_type": "rectangle",
-            "points": [
-                [
-                    181,
-                    342
-                ],
-                [
-                    381,
-                    542
                 ]
             ],
             "flags": {},
@@ -521,22 +649,6 @@
             "group_id": null
         },
         {
-            "label": "range",
-            "shape_type": "rectangle",
-            "points": [
-                [
-                    187,
-                    219
-                ],
-                [
-                    387,
-                    419
-                ]
-            ],
-            "flags": {},
-            "group_id": null
-        },
-        {
             "label": "pair",
             "shape_type": "line",
             "lineType": "LL",
@@ -548,22 +660,6 @@
                 [
                     261,
                     334
-                ]
-            ],
-            "flags": {},
-            "group_id": null
-        },
-        {
-            "label": "range",
-            "shape_type": "rectangle",
-            "points": [
-                [
-                    269,
-                    338
-                ],
-                [
-                    469,
-                    538
                 ]
             ],
             "flags": {},
@@ -587,22 +683,6 @@
             "group_id": null
         },
         {
-            "label": "range",
-            "shape_type": "rectangle",
-            "points": [
-                [
-                    493,
-                    350
-                ],
-                [
-                    693,
-                    550
-                ]
-            ],
-            "flags": {},
-            "group_id": null
-        },
-        {
             "label": "pair",
             "shape_type": "line",
             "lineType": "LL",
@@ -614,22 +694,6 @@
                 [
                     562,
                     425
-                ]
-            ],
-            "flags": {},
-            "group_id": null
-        },
-        {
-            "label": "range",
-            "shape_type": "rectangle",
-            "points": [
-                [
-                    389,
-                    172
-                ],
-                [
-                    589,
-                    372
                 ]
             ],
             "flags": {},

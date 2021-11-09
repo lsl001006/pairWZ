@@ -2,12 +2,11 @@ import os
 import json
 from time import sleep
 from PIL import Image
-import numpy as np
 from aip import AipOcr
 import shutil
+from rich.progress import track
 
-path = "C:\\Users\\19586\\Downloads\\pairWZ\\data" #有图有json的文件夹
-files = os.listdir(path)
+Pred_Merged = []
 cnt = 0
 # 忽略匹配的标签集
 non_wz_label_list = ['wz1','wz3','wz1-l','wz3-l','wz2','wz4','d1','h1','v1','range','mask','Ne','Ns','k1','pair']
@@ -111,7 +110,7 @@ def findChoice(shapeMe, data, mode="main",scale=50):
     else:
         return None
 
-def mainProc(path,files, search_scale=100, ocr_flag=False):
+def mainProc(path, files, predPath, search_scale=100, ocr_flag=False):
     """
     图文匹配主程序函数
     :param path: 图片-json路径
@@ -119,19 +118,23 @@ def mainProc(path,files, search_scale=100, ocr_flag=False):
     :param ocr_flag: 是否使用OCR识别，默认为False
     """
     global cnt
-    for file in files:
-        if file.endswith(".json"):
-            print("#"*20+ file + "#"*20)
-            singleMatch(path, file, search_scale, ocr_flag)
+    for i in track(range(len(files)), description="Processing"):
+        if files[i].endswith(".json"):
+            singleMatch(path, files[i], predPath, search_scale, ocr_flag)
+    with open(os.path.join(predPath, "predJson", "pred_general.json"), "w", encoding="utf-8") as f:
+        json.dump(Pred_Merged,f,ensure_ascii=False,indent=4)
 
-def singleMatch(path, file, search_scale=100, ocr_flag=False):
+def singleMatch(path, file, predPath,  search_scale=100, ocr_flag=False):
     """
     测试用单个图片测试函数
     :param path: 图片-json路径
     :param file: 文件名
+    :param predPath: 预测输出路径
     :param search_scale: 搜索尺度
     :param ocr_flag: 是否进行ocr识别
     """
+    Preds = {"imagePath": "", "preds": []}
+    Preds["imagePath"] = file.split(".")[0]+".png"
     oriscale = search_scale# 存储搜索尺度初值
     TotalList = [] # 存储全部choiceDics,方便统一管理
     with open(os.path.join(path,file),'r',encoding='utf-8') as f:
@@ -163,9 +166,13 @@ def singleMatch(path, file, search_scale=100, ocr_flag=False):
                     print('--------------'*2+"\/"+"--------------"*2)
                     print("Piclabel: {:<9s} coordinate: {} ".format(res_label,res_point))
                     print(" ")
+                    Preds["preds"].append({"WZlabel":shape["label"],"Piclabel":res_label,\
+                                   "WZcoordinate":shape["points"], "PICcoordinate":res_point})
+                    
                     continue
                 TotalList.append(choiceDics)
-        FindBestPair(TotalList, data, ocr_flag, img)
+        
+        FindBestPair(TotalList, data, ocr_flag, img, Preds, predPath)
 
 def distance2(x1,y1,x2,y2):
     return (x1-x2)**2+(y1-y2)**2
@@ -181,7 +188,7 @@ def compareDis(c1,c2):
     else:
         return c2
 
-def FindBestPair(TotalList, data, ocr_flag, img):
+def FindBestPair(TotalList, data, ocr_flag, img, Preds, predPath):
     """
     寻找最优匹配方案
     :param TotalList:全部choiceDics的集合
@@ -221,6 +228,9 @@ def FindBestPair(TotalList, data, ocr_flag, img):
                 
             ##---------------------------------打印信息--------------------------------------##    
             printInfo(choiceDic)
+            Preds["preds"].append({"WZlabel":choiceDic['self'][0]["label"],"Piclabel":choiceDic["nearlabel"][0][0]['label'],\
+                                   "WZcoordinate":choiceDic['self'][0]["points"], "PICcoordinate":choiceDic["nearlabel"][0][0]['points']})
+        Pred_Merged.append(Preds)
     else:
         # 寻找出含有conflictlabel的所有choiceDic,比较距离远近,修改TotalList
         for each in conflictlist:
@@ -251,7 +261,11 @@ def FindBestPair(TotalList, data, ocr_flag, img):
                 json.dump(data,f,ensure_ascii=False,indent=4)
                 
             ##---------------------------------打印信息--------------------------------------##    
+            
             printInfo(choiceDic)
+            Preds["preds"].append({"WZlabel":choiceDic['self'][0]["label"],"Piclabel":choiceDic["nearlabel"][0][0]['label'],\
+                                   "WZcoordinate":choiceDic['self'][0]["points"], "PICcoordinate":choiceDic["nearlabel"][0][0]['points']})
+        Pred_Merged.append(Preds)
                                 
 def printInfo(choiceDic):
     """
@@ -283,10 +297,12 @@ def showResult(path, dir, dst):
         
 
 if __name__ == "__main__":
-
+    path = "C:\\Users\\19586\\Downloads\\pairWZ\\data" #有图有json的文件夹
+    files = os.listdir(path)
+    predPath = "C:\\Users\\19586\\Downloads\\pairWZ\\result_preds" #预测结果保存路径
     # singleMatch(path,"20160829-增城区-广州增城麻车村东-L-张武雄（10米围杆+一体化机柜，联通自建，加局端：增城麻车）.json",search_scale=50, ocr_flag=True)
     # showResult(path,["20160829-增城区-广州增城麻车村东-L-张武雄（10米围杆+一体化机柜，联通自建，加局端：增城麻车）.json"],dst="C:\\Users\\19586\\Downloads\\pairWZ\\result")
-    mainProc(path, files, search_scale=100, ocr_flag=False)
+    mainProc(path, files, predPath=predPath, search_scale=100, ocr_flag=False)
     showResult(path, files, dst="C:\\Users\\19586\\Downloads\\pairWZ\\result_preds")
 
 

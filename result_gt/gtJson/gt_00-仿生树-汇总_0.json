@@ -1,0 +1,473 @@
+{
+    "imagePath": "00-仿生树-汇总_0.png",
+    "gt": [
+        {
+            "WZlabel": "wz1",
+            "Piclabel": "NotFound",
+            "WZcoordinate": [
+                [
+                    1624,
+                    1607
+                ],
+                [
+                    1888,
+                    1698
+                ]
+            ],
+            "PICcoordinate": [
+                1569,
+                1939
+            ]
+        },
+        {
+            "WZlabel": "wz1",
+            "Piclabel": "vb1",
+            "WZcoordinate": [
+                [
+                    981,
+                    1784
+                ],
+                [
+                    1027,
+                    1851
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    1133,
+                    1709
+                ],
+                [
+                    1327,
+                    2045
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz1",
+            "Piclabel": "vs1",
+            "WZcoordinate": [
+                [
+                    2427,
+                    1985
+                ],
+                [
+                    2624,
+                    2076
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    1984,
+                    1701
+                ],
+                [
+                    2343,
+                    2070
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz1",
+            "Piclabel": "va1",
+            "WZcoordinate": [
+                [
+                    2939,
+                    2447
+                ],
+                [
+                    3326,
+                    2627
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    3440,
+                    2599
+                ],
+                [
+                    3489,
+                    2685
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz1",
+            "Piclabel": "va1",
+            "WZcoordinate": [
+                [
+                    3821,
+                    2382
+                ],
+                [
+                    4195,
+                    2556
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    3677,
+                    2502
+                ],
+                [
+                    3771,
+                    2583
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz1",
+            "Piclabel": "va1",
+            "WZcoordinate": [
+                [
+                    3858,
+                    2849
+                ],
+                [
+                    4232,
+                    3020
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    3632,
+                    2775
+                ],
+                [
+                    3729,
+                    2859
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz1",
+            "Piclabel": "vp1-1",
+            "WZcoordinate": [
+                [
+                    5181,
+                    2229
+                ],
+                [
+                    5731,
+                    2434
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    4928,
+                    1988
+                ],
+                [
+                    5099,
+                    2160
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz1",
+            "Piclabel": "NotFound",
+            "WZcoordinate": [
+                [
+                    5243,
+                    1741
+                ],
+                [
+                    5793,
+                    1946
+                ]
+            ],
+            "PICcoordinate": [
+                5123,
+                1931
+            ]
+        },
+        {
+            "WZlabel": "wz1",
+            "Piclabel": "NotFound",
+            "WZcoordinate": [
+                [
+                    4203,
+                    1823
+                ],
+                [
+                    4751,
+                    2026
+                ]
+            ],
+            "PICcoordinate": [
+                4834,
+                2032
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "va1",
+            "WZcoordinate": [
+                [
+                    5194,
+                    1226
+                ],
+                [
+                    5305,
+                    1292
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    5037,
+                    1187
+                ],
+                [
+                    5121,
+                    1267
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "va1",
+            "WZcoordinate": [
+                [
+                    5246,
+                    940
+                ],
+                [
+                    5355,
+                    1006
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    5086,
+                    904
+                ],
+                [
+                    5166,
+                    985
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "va1",
+            "WZcoordinate": [
+                [
+                    4633,
+                    1041
+                ],
+                [
+                    4744,
+                    1108
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    4825,
+                    1005
+                ],
+                [
+                    4893,
+                    1090
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "n1",
+            "WZcoordinate": [
+                [
+                    3199,
+                    1621
+                ],
+                [
+                    3389,
+                    1720
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    2829,
+                    584
+                ],
+                [
+                    3769,
+                    1541
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz1",
+            "Piclabel": "a1-1",
+            "WZcoordinate": [
+                [
+                    6472,
+                    1210
+                ],
+                [
+                    6735,
+                    1271
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    7130,
+                    1017
+                ],
+                [
+                    7238,
+                    1120
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz1",
+            "Piclabel": "p1-2",
+            "WZcoordinate": [
+                [
+                    6329,
+                    1105
+                ],
+                [
+                    6786,
+                    1179
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    7215,
+                    1013
+                ],
+                [
+                    7338,
+                    1150
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz1",
+            "Piclabel": "a1-1",
+            "WZcoordinate": [
+                [
+                    6463,
+                    952
+                ],
+                [
+                    6757,
+                    1039
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    7170,
+                    686
+                ],
+                [
+                    7221,
+                    881
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz1",
+            "Piclabel": "a1-1",
+            "WZcoordinate": [
+                [
+                    6784,
+                    259
+                ],
+                [
+                    7030,
+                    352
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    7171,
+                    442
+                ],
+                [
+                    7221,
+                    636
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz1",
+            "Piclabel": "NotFound",
+            "WZcoordinate": [
+                [
+                    6936,
+                    2452
+                ],
+                [
+                    7133,
+                    2544
+                ]
+            ],
+            "PICcoordinate": [
+                7245,
+                2659
+            ]
+        },
+        {
+            "WZlabel": "wz1",
+            "Piclabel": "NotFound",
+            "WZcoordinate": [
+                [
+                    7139,
+                    3666
+                ],
+                [
+                    7405,
+                    3758
+                ]
+            ],
+            "PICcoordinate": [
+                7067,
+                3612
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "b1",
+            "WZcoordinate": [
+                [
+                    6259,
+                    3382
+                ],
+                [
+                    6307,
+                    3451
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    6208,
+                    3280
+                ],
+                [
+                    6490,
+                    3522
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "NotFound",
+            "WZcoordinate": [
+                [
+                    6391,
+                    3382
+                ],
+                [
+                    6438,
+                    3449
+                ]
+            ],
+            "PICcoordinate": [
+                6482,
+                3414
+            ]
+        }
+    ]
+}

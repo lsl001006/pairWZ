@@ -1,0 +1,293 @@
+{
+    "imagePath": "00-三角塔-汇总_0.png",
+    "gt": [
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "n1",
+            "WZcoordinate": [
+                [
+                    3378,
+                    1351
+                ],
+                [
+                    4395,
+                    1457
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    2938,
+                    267
+                ],
+                [
+                    5262,
+                    1495
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "va1",
+            "WZcoordinate": [
+                [
+                    3426,
+                    1728
+                ],
+                [
+                    3687,
+                    1818
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    3539,
+                    1869
+                ],
+                [
+                    3615,
+                    1935
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "va1",
+            "WZcoordinate": [
+                [
+                    2780,
+                    2086
+                ],
+                [
+                    3039,
+                    2176
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    3070,
+                    2145
+                ],
+                [
+                    3134,
+                    2221
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "va1",
+            "WZcoordinate": [
+                [
+                    2790,
+                    2724
+                ],
+                [
+                    3049,
+                    2814
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    3071,
+                    2665
+                ],
+                [
+                    3133,
+                    2742
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "va1",
+            "WZcoordinate": [
+                [
+                    3633,
+                    2946
+                ],
+                [
+                    3892,
+                    3037
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    3550,
+                    2943
+                ],
+                [
+                    3620,
+                    3011
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "va1",
+            "WZcoordinate": [
+                [
+                    4021,
+                    2770
+                ],
+                [
+                    4280,
+                    2861
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    4001,
+                    2681
+                ],
+                [
+                    4070,
+                    2751
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "va1",
+            "WZcoordinate": [
+                [
+                    4059,
+                    2026
+                ],
+                [
+                    4318,
+                    2116
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    3992,
+                    2128
+                ],
+                [
+                    4069,
+                    2193
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "va1",
+            "WZcoordinate": [
+                [
+                    5247,
+                    1721
+                ],
+                [
+                    5614,
+                    1864
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    5360,
+                    1868
+                ],
+                [
+                    5436,
+                    1935
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "va1",
+            "WZcoordinate": [
+                [
+                    4483,
+                    2719
+                ],
+                [
+                    4885,
+                    2873
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    4893,
+                    2666
+                ],
+                [
+                    4956,
+                    2740
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "va1",
+            "WZcoordinate": [
+                [
+                    5863,
+                    2784
+                ],
+                [
+                    6232,
+                    2929
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    5822,
+                    2682
+                ],
+                [
+                    5893,
+                    2752
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "a1-1",
+            "WZcoordinate": [
+                [
+                    6169,
+                    1305
+                ],
+                [
+                    6538,
+                    1374
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    6737,
+                    1184
+                ],
+                [
+                    6786,
+                    1364
+                ]
+            ]
+        },
+        {
+            "WZlabel": "wz3",
+            "Piclabel": "a1-1",
+            "WZcoordinate": [
+                [
+                    6208,
+                    739
+                ],
+                [
+                    6467,
+                    829
+                ]
+            ],
+            "PICcoordinate": [
+                [
+                    6736,
+                    701
+                ],
+                [
+                    6784,
+                    882
+                ]
+            ]
+        }
+    ]
+}

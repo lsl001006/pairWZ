@@ -164,9 +164,9 @@ def singleMatch(path, file, predPath,  search_scale=100, ocr_flag=False):
                     print("WZlabel: {:<10s} coordinate: {} ".format(shape['label'],shape['points']))
                     print('--------------'*2+"||"+"--------------"*2)
                     print('--------------'*2+"\/"+"--------------"*2)
-                    print("Piclabel: {:<9s} coordinate: {} ".format(res_label,res_point))
+                    print("PIClabel: {:<9s} coordinate: {} ".format(res_label,res_point))
                     print(" ")
-                    Preds["preds"].append({"WZlabel":shape["label"],"Piclabel":res_label,\
+                    Preds["preds"].append({"WZlabel":shape["label"],"PIClabel":res_label,\
                                    "WZcoordinate":shape["points"], "PICcoordinate":res_point})
                     
                     continue
@@ -228,7 +228,7 @@ def FindBestPair(TotalList, data, ocr_flag, img, Preds, predPath):
                 
             ##---------------------------------打印信息--------------------------------------##    
             printInfo(choiceDic)
-            Preds["preds"].append({"WZlabel":choiceDic['self'][0]["label"],"Piclabel":choiceDic["nearlabel"][0][0]['label'],\
+            Preds["preds"].append({"WZlabel":choiceDic['self'][0]["label"],"PIClabel":choiceDic["nearlabel"][0][0]['label'],\
                                    "WZcoordinate":choiceDic['self'][0]["points"], "PICcoordinate":choiceDic["nearlabel"][0][0]['points']})
         Pred_Merged.append(Preds)
     else:
@@ -263,7 +263,7 @@ def FindBestPair(TotalList, data, ocr_flag, img, Preds, predPath):
             ##---------------------------------打印信息--------------------------------------##    
             
             printInfo(choiceDic)
-            Preds["preds"].append({"WZlabel":choiceDic['self'][0]["label"],"Piclabel":choiceDic["nearlabel"][0][0]['label'],\
+            Preds["preds"].append({"WZlabel":choiceDic['self'][0]["label"],"PIClabel":choiceDic["nearlabel"][0][0]['label'],\
                                    "WZcoordinate":choiceDic['self'][0]["points"], "PICcoordinate":choiceDic["nearlabel"][0][0]['points']})
         Pred_Merged.append(Preds)
                                 
@@ -274,7 +274,7 @@ def printInfo(choiceDic):
     print("WZlabel: {:<10s} coordinate: {} ".format(choiceDic['self'][0]["label"],choiceDic['self'][0]["points"]))
     print('--------------'*2+"||"+"--------------"*2)
     print('--------------'*2+"\/"+"--------------"*2)
-    print("Piclabel: {:<9s} coordinate: {} ".format(choiceDic["nearlabel"][0][0]['label'],choiceDic["nearlabel"][0][0]['points']))
+    print("PIClabel: {:<9s} coordinate: {} ".format(choiceDic["nearlabel"][0][0]['label'],choiceDic["nearlabel"][0][0]['points']))
     print(" ")
 
 def showResult(path, dir, dst):

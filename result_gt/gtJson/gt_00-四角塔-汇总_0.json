@@ -3,7 +3,7 @@
     "gt": [
         {
             "WZlabel": "wz3",
-            "Piclabel": "n1",
+            "PIClabel": "n1",
             "WZcoordinate": [
                 [
                     4033,
@@ -27,7 +27,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "va1",
+            "PIClabel": "va1",
             "WZcoordinate": [
                 [
                     4831,
@@ -51,7 +51,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "va1",
+            "PIClabel": "va1",
             "WZcoordinate": [
                 [
                     5417,
@@ -75,7 +75,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "va1",
+            "PIClabel": "va1",
             "WZcoordinate": [
                 [
                     6007,
@@ -99,7 +99,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "va1",
+            "PIClabel": "va1",
             "WZcoordinate": [
                 [
                     5570,
@@ -123,7 +123,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "va1",
+            "PIClabel": "va1",
             "WZcoordinate": [
                 [
                     5066,
@@ -147,7 +147,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "va1",
+            "PIClabel": "va1",
             "WZcoordinate": [
                 [
                     6117,
@@ -171,7 +171,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "va1",
+            "PIClabel": "va1",
             "WZcoordinate": [
                 [
                     4492,
@@ -195,7 +195,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "va1",
+            "PIClabel": "va1",
             "WZcoordinate": [
                 [
                     5062,
@@ -219,7 +219,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "va1",
+            "PIClabel": "va1",
             "WZcoordinate": [
                 [
                     5735,
@@ -243,7 +243,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "va1",
+            "PIClabel": "va1",
             "WZcoordinate": [
                 [
                     5652,
@@ -267,7 +267,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "va1",
+            "PIClabel": "va1",
             "WZcoordinate": [
                 [
                     5215,
@@ -291,7 +291,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "va1",
+            "PIClabel": "va1",
             "WZcoordinate": [
                 [
                     4591,
@@ -315,7 +315,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "a1-1",
+            "PIClabel": "a1-1",
             "WZcoordinate": [
                 [
                     6180,
@@ -339,7 +339,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "a1-1",
+            "PIClabel": "a1-1",
             "WZcoordinate": [
                 [
                     6198,
@@ -363,7 +363,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "a1-1",
+            "PIClabel": "a1-1",
             "WZcoordinate": [
                 [
                     6207,
@@ -387,7 +387,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "a1-1",
+            "PIClabel": "a1-1",
             "WZcoordinate": [
                 [
                     6559,
@@ -411,7 +411,7 @@
         },
         {
             "WZlabel": "wz1",
-            "Piclabel": "c1",
+            "PIClabel": "c1",
             "WZcoordinate": [
                 [
                     7252,
@@ -435,7 +435,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "a1-3",
+            "PIClabel": "a1-3",
             "WZcoordinate": [
                 [
                     6695,
@@ -459,7 +459,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "a1-2",
+            "PIClabel": "a1-2",
             "WZcoordinate": [
                 [
                     7632,
@@ -483,7 +483,7 @@
         },
         {
             "WZlabel": "wz1",
-            "Piclabel": "a1-2",
+            "PIClabel": "a1-2",
             "WZcoordinate": [
                 [
                     7514,
@@ -507,7 +507,7 @@
         },
         {
             "WZlabel": "wz1",
-            "Piclabel": "NotFound",
+            "PIClabel": "NotFound",
             "WZcoordinate": [
                 [
                     7563,
@@ -525,7 +525,7 @@
         },
         {
             "WZlabel": "wz1",
-            "Piclabel": "NotFound",
+            "PIClabel": "NotFound",
             "WZcoordinate": [
                 [
                     6286,

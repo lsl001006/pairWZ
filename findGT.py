@@ -217,7 +217,7 @@ def findGT(path, file, gtPath, search_scale=100, ocr_flag=False):
 
                 search_scale = oriscale
                 if nearest_shape is None:
-                    GroundTruth["gt"].append({"WZlabel": shape['label'], "Piclabel": res_label,
+                    GroundTruth["gt"].append({"WZlabel": shape['label'], "PIClabel": res_label,
                                    "WZcoordinate": shape['points'], "PICcoordinate": res_point})
                     continue
 
@@ -232,7 +232,7 @@ def findGT(path, file, gtPath, search_scale=100, ocr_flag=False):
                 with open(os.path.join(path, data["imagePath"].split(".")[0]+".json"), 'w', encoding="utf-8") as f:
                     json.dump(data, f, ensure_ascii=False, indent=4)
                 # GroundTruth存储结构化信息
-                GroundTruth["gt"].append({"WZlabel": shape['label'], "Piclabel": nearest_shape[0]['label'],
+                GroundTruth["gt"].append({"WZlabel": shape['label'], "PIClabel": nearest_shape[0]['label'],
                                "WZcoordinate": shape['points'], "PICcoordinate": nearest_shape[0]['points']})
 
                 already_paired.append(nearest_shape[0])  # 防止重复匹配

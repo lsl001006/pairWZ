@@ -3,7 +3,7 @@
     "gt": [
         {
             "WZlabel": "wz3",
-            "Piclabel": "va1",
+            "PIClabel": "va1",
             "WZcoordinate": [
                 [
                     1982.0,
@@ -27,7 +27,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "va1",
+            "PIClabel": "va1",
             "WZcoordinate": [
                 [
                     1569.0,
@@ -51,7 +51,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "va1",
+            "PIClabel": "va1",
             "WZcoordinate": [
                 [
                     1978.0,
@@ -75,7 +75,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "a4",
+            "PIClabel": "a4",
             "WZcoordinate": [
                 [
                     964.0,
@@ -99,7 +99,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "a1-2",
+            "PIClabel": "a1-2",
             "WZcoordinate": [
                 [
                     982.5208333333335,
@@ -123,7 +123,7 @@
         },
         {
             "WZlabel": "wz1",
-            "Piclabel": "p1-1",
+            "PIClabel": "p1-1",
             "WZcoordinate": [
                 [
                     993.0,
@@ -147,7 +147,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "a1-2",
+            "PIClabel": "a1-2",
             "WZcoordinate": [
                 [
                     982.0,
@@ -171,7 +171,7 @@
         },
         {
             "WZlabel": "wz3",
-            "Piclabel": "a1-2",
+            "PIClabel": "a1-2",
             "WZcoordinate": [
                 [
                     982.0,
